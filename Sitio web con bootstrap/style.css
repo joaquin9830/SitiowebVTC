@@ -9,16 +9,31 @@ h2{
 }
 p{font-size:30px;font-weight:300;line-height:40px;}
 .navbar{
-    background-color:rgb(212, 190, 177);
+    background-color:rgb(136, 129, 111);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     min-height: 100px;
 }
 a:hover{
     text-decoration:none;
 }
+:any-link{
+    font-size: 16px; color: rgb(212, 60, 200);
+}
+
 section{
     padding:120px 0;
 }
+.bg-light-pink{
+    background-color:rgb(69, 133, 141);
+    box-shadow: 0 2px 4px 0 rgba(107, 48, 48, 0.5);
+
+}
+.bg-light-blue{
+    background-color:rgb(41, 43, 41);
+    box-shadow: 0 2px 4px 0 rgba(107, 48, 48, 0.5);
+
+}
+
 .top-margin-xs{margin-top:15px}
 .top-margin-sm{margin-top:30px}
 .top-margin-lg{margin-top:60px}
@@ -35,6 +50,21 @@ section{
     color: rgb(255, 255, 255);
     border:2px solid rgb(63, 61, 61);
 }
+.btm-dark{
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+    border:2px solid #fff;
+}
+.btm i{
+    font-size: 14px; margin-left: 5px;
+}
+.full-width{
+    width: 100%;
+}
+.text-ready{
+    color: rgb(201, 15, 185);
+}
+
 .nav-link{color:rgb(0, 0, 0)}
 .nav-link:hover{color:rgb(94, 88, 88)}
 .logo-brand{
@@ -43,6 +73,7 @@ section{
 }
 .navbar-toggler{ font-size: 40px; }
 .navbar-toggler:focus{outline:none;}
+
 
 .products-container{
     position: relative;
@@ -80,8 +111,25 @@ section{
 .products-details a h3{
  color: #fff;
 }
+.setup-container{ 
+    position:relative;
+    margin:10px 0;
 
+}
+.setup-details{
+    position:absolute;
+    color:rgb(255, 255, 255);
+    bottom:0px;
+    left:20px
+}
+.setup-details span{
+    font-size:14px;
 
+}
+.setup-details i{
+    padding: 0 5px;
+
+}
 
 #hero{
     background-image:url("images/hero2.jpg");
@@ -96,6 +144,25 @@ section{
     max-width:1000px;
     margin: 0 auto 80px  0 auto;
     text-align: left;
+}
+.pcbuild-container{
+    margin:15px 0;
+
+
+}
+.armar{
+    padding:50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+.armar-light{
+background-color: rgb(135, 134, 139);
+border:2px solid rgb(0, 0, 0);
+}
+.armar-dark{
+    background-color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    color:rgb(48, 243, 9);
 }
 
 @media (max-width: 575.98px) { 
