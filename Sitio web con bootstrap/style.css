@@ -89,12 +89,7 @@ section{
 }
 .navbar-toggler{ font-size: 40px; }
 .navbar-toggler:focus{outline:none;}
-.products{
-    background-image:url("images/.jpg");
-    background-size:cover;
-    padding-top: 90px;
-    min-height: 700px;
-}
+
 
 .products-container{
     position: relative;
